@@ -1,0 +1,199 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+
+Evaluating Random Forest...
+Validation Accuracy for Random Forest: 0.9764376233840667
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99     14214
+           1       0.83      0.95      0.88      1489
+
+    accuracy                           0.98     15703
+   macro avg       0.91      0.96      0.94     15703
+weighted avg       0.98      0.98      0.98     15703
+
+Validation Confusion Matrix:
+ [[13923   291]
+ [   79  1410]]
+
+Evaluating Gradient Boosting...
+Validation Accuracy for Gradient Boosting: 0.9765649875819907
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99     14214
+           1       0.83      0.94      0.88      1489
+
+    accuracy                           0.98     15703
+   macro avg       0.91      0.96      0.94     15703
+weighted avg       0.98      0.98      0.98     15703
+
+Validation Confusion Matrix:
+ [[13930   284]
+ [   84  1405]]
+
+Evaluating Logistic Regression...
+Validation Accuracy for Logistic Regression: 0.968859453607591
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98     14214
+           1       0.80      0.89      0.84      1489
+
+    accuracy                           0.97     15703
+   macro avg       0.89      0.94      0.91     15703
+weighted avg       0.97      0.97      0.97     15703
+
+Validation Confusion Matrix:
+ [[13884   330]
+ [  159  1330]]
+
+Evaluating Support Vector Classifier...
+Validation Accuracy for Support Vector Classifier: 0.9729987900401197
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98     14214
+           1       0.80      0.94      0.87      1489
+
+    accuracy                           0.97     15703
+   macro avg       0.90      0.96      0.93     15703
+weighted avg       0.98      0.97      0.97     15703
+
+Validation Confusion Matrix:
+ [[13873   341]
+ [   83  1406]]
+
+Evaluating Decision Tree...
+Validation Accuracy for Decision Tree: 0.9684136789148571
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98     14214
+           1       0.83      0.84      0.83      1489
+
+    accuracy                           0.97     15703
+   macro avg       0.91      0.91      0.91     15703
+weighted avg       0.97      0.97      0.97     15703
+
+Validation Confusion Matrix:
+ [[13958   256]
+ [  240  1249]]
+
+Evaluating Random Forest on test data...
+Test Accuracy for Random Forest: 0.9759735892889895
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    237034
+           1       0.82      0.95      0.88     24678
+
+    accuracy                           0.98    261712
+   macro avg       0.91      0.96      0.93    261712
+weighted avg       0.98      0.98      0.98    261712
+
+Test Confusion Matrix:
+ [[231993   5041]
+ [  1247  23431]]
+
+Evaluating Gradient Boosting on test data...
+Test Accuracy for Gradient Boosting: 0.9759583053127101
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    237034
+           1       0.82      0.95      0.88     24678
+
+    accuracy                           0.98    261712
+   macro avg       0.91      0.96      0.93    261712
+weighted avg       0.98      0.98      0.98    261712
+
+Test Confusion Matrix:
+ [[231989   5045]
+ [  1247  23431]]
+
+Evaluating Logistic Regression on test data...
+Test Accuracy for Logistic Regression: 0.9688321513725011
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98    237034
+           1       0.80      0.90      0.84     24678
+
+    accuracy                           0.97    261712
+   macro avg       0.89      0.94      0.91    261712
+weighted avg       0.97      0.97      0.97    261712
+
+Test Confusion Matrix:
+ [[231344   5690]
+ [  2467  22211]]
+
+Evaluating Support Vector Classifier on test data...
+Test Accuracy for Support Vector Classifier: 0.9728938680687168
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98    237034
+           1       0.80      0.95      0.87     24678
+
+    accuracy                           0.97    261712
+   macro avg       0.90      0.96      0.93    261712
+weighted avg       0.98      0.97      0.97    261712
+
+Test Confusion Matrix:
+ [[231172   5862]
+ [  1232  23446]]
+
+Evaluating Decision Tree on test data...
+Test Accuracy for Decision Tree: 0.9668605184324754
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98    237034
+           1       0.82      0.83      0.82     24678
+
+    accuracy                           0.97    261712
+   macro avg       0.90      0.90      0.90    261712
+weighted avg       0.97      0.97      0.97    261712
+
+Test Confusion Matrix:
+ [[232644   4390]
+ [  4283  20395]]
+
+
+
+
+
+
+
+
+
+Best Hyperparameters: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 188}
+Validation Accuracy: 0.9766728014927369
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    142275
+           1       0.84      0.93      0.88     14752
+
+    accuracy                           0.98    157027
+   macro avg       0.92      0.95      0.93    157027
+weighted avg       0.98      0.98      0.98    157027
+
+Validation Confusion Matrix:
+ [[139702   2573]
+ [  1090  13662]]
+Test Accuracy: 0.9766384422571376
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    237034
+           1       0.84      0.93      0.88     24678
+
+    accuracy                           0.98    261712
+   macro avg       0.92      0.96      0.93    261712
+weighted avg       0.98      0.98      0.98    261712
+
+Test Confusion Matrix:
+ [[232585   4449]
+ [  1665  23013]]

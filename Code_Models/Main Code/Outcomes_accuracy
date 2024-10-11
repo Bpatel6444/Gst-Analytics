@@ -1,0 +1,73 @@
+
+Train model:-
+Validation Accuracy: 0.9766919064874193
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    142275
+           1       0.84      0.93      0.88     14752
+
+    accuracy                           0.98    157027
+   macro avg       0.92      0.95      0.93    157027
+weighted avg       0.98      0.98      0.98    157027
+
+Validation Confusion Matrix:
+ [[139700   2575]
+ [  1085  13667]]
+
+
+
+Test data:-
+Test Accuracy: 0.9766804731919057
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    237034
+           1       0.84      0.93      0.88     24678
+
+    accuracy                           0.98    261712
+   macro avg       0.92      0.96      0.93    261712
+weighted avg       0.98      0.98      0.98    261712
+
+Test Confusion Matrix:
+ [[232659   4375]
+ [  1728  22950]]
+Test AUC-ROC: 0.9942705221873456
+
+
+
+
+
+
+Please upload your model file (e.g., 'best_model_gbt.pkl').
+best_model_gbt.pkl
+best_model_gbt.pkl(n/a) - 3029212 bytes, last modified: 10/11/2024 - 100% done
+Saving best_model_gbt.pkl to best_model_gbt (2).pkl
+Please upload your X test dataset (e.g., 'X_Test_Data_Input.csv').
+X_Test_Data_Input.csv
+X_Test_Data_Input.csv(text/csv) - 56005366 bytes, last modified: 6/13/2024 - 100% done
+Saving X_Test_Data_Input.csv to X_Test_Data_Input (1).csv
+Please upload your Y test dataset (e.g., 'Y_Test_Data_Target.csv').
+Y_Test_Data_Target.csv
+Y_Test_Data_Target.csv(text/csv) - 9159930 bytes, last modified: 6/13/2024 - 100% done
+Saving Y_Test_Data_Target.csv to Y_Test_Data_Target (1).csv
+Test Accuracy: 0.9766804731919057
+Test Precision: 0.8398902104300091
+Test Recall: 0.9299781181619255
+Test F1 Score: 0.8826413860738803
+Test Log Loss: 0.05186096516421382
+Test Balanced Accuracy: 0.9557604252140914
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    237034
+           1       0.84      0.93      0.88     24678
+
+    accuracy                           0.98    261712
+   macro avg       0.92      0.96      0.93    261712
+weighted avg       0.98      0.98      0.98    261712
+
+Test Confusion Matrix:
+ [[232659   4375]
+ [  1728  22950]]
+Test AUC-ROC: 0.9942705221873456
